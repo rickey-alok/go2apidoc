@@ -63,10 +63,11 @@ nav:
       - VS-Code: Docs-as-Code/VS-Code.md
       - Git & GitHub: Docs-as-Code/Git-GitHub.md
       - Postman: Docs-as-Code/Postman.md
-  - API Docs:
+  - For writing API Docs:
       - Markdown: API Docs/Markdown.md
       - OpenAPI Specification: API Docs/OepnAPISpec.md
       - JSON: API Docs/JSON.md
+      - cURL: API Docs/cURL.md
 extra_css:
   - stylesheets/extra.css
 
