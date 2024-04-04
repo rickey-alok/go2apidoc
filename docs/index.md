@@ -34,7 +34,7 @@ We're going to create an api using NODE.js application. Node.JS runs on any oper
 
 ## Prerequisites
 
-<ol><li>Install Node.Js application. Refer to Download Node.JS
+<!-- <ol><li>Install Node.Js application. Refer to Download Node.JS
 <ol type="a">
     <li>Make sure to select LTS (long Term Support), and not the CURRENT version. LTS considered the more stable version and not grequently updated, but for the Current version it is other way around.</li>
     <li>Select Windows installer if you have windows installer.</li>
@@ -42,6 +42,6 @@ We're going to create an api using NODE.js application. Node.JS runs on any oper
     <li>Once the application is donwloaded, opem command prompt, and just type <em>node --version</em> or <em>node -v</em>. you'll be presented with the installed version, something like <em>v18.12.1</em> if the application is installed successfully.</li>
 </ol>
 </li>
-<li>Install VS code application.</li></ol>
+<li>Install VS code application.</li></ol> -->
 
 ---

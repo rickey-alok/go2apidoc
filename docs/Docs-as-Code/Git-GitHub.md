@@ -33,7 +33,7 @@
 
     ![alt text](image-1.png)
 
-### What is GitHub?
+## What is GitHub?
 
 - A platform for code hosting and collaborating on projects using git
 - It serves as a location for uploading copies of a Git repository

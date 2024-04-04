@@ -1,5 +1,5 @@
 site_name: API-Go2Doc
-# site_url: https://example.com/
+site_url: https://example.com/
 repo_url: https://github.com/rickey-alok/mk-doc
 repo_name: rickey-alok/mk-doc
 theme:
@@ -54,7 +54,7 @@ theme:
 
 use_directory_urls: true
 nav:
-  - Home: home.md
+  - Home: index.md
   - Docs-as-Code:
       - API: Docs-as-Code/API.md
       - Git & GitHub: Docs-as-Code/Git-GitHub.md
@@ -63,31 +63,31 @@ nav:
 extra_css:
   - stylesheets/extra.css
 
-# extra:
-#   # alternate:
-#   #   - name: English
-#   #     link: /en/
-#   #     lang: en
-#   #   - name: Deutsch
-#   #     link: /de/
-#   #     lang: de
-#   analytics:
-#     feedback:
-#       title: Was this page helpful?
-#       ratings:
-#         - icon: material/emoticon-happy-outline
-#           name: This page was helpful
-#           data: 1
-#           note: >-
-#             Thanks for your feedback!
-#         - icon: material/emoticon-sad-outline
-#           name: This page could be improved
-#           data: 0
-#           note: >-
-#             Thanks for your feedback! Help us improve this page by
-#             using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
-# plugins:
-#   - git-authors
+extra:
+  # alternate:
+  #   - name: English
+  #     link: /en/
+  #     lang: en
+  #   - name: Deutsch
+  #     link: /de/
+  #     lang: de
+  analytics:
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/emoticon-sad-outline
+          name: This page could be improved
+          data: 0
+          note: >-
+            Thanks for your feedback! Help us improve this page by
+            using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
+plugins:
+  - git-authors
 
 copyright: Copyright &copy; 2024 , Maintained by the <a href="https://www.linkedin.com/in/alok-ranjan-34817a17/">Alok Ranjan</a>.
 
