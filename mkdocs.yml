@@ -65,14 +65,14 @@ nav:
 extra_css:
   - stylesheets/extra.css
 
-# extra:
-#   alternate:
-#     - name: English
-#       link: /en/
-#       lang: en
-#     - name: Deutsch
-#       link: /de/
-#       lang: de
+extra:
+  alternate:
+    - name: English
+      link: /en/
+      lang: en
+    - name: Deutsch
+      link: /de/
+      lang: de
 #   analytics:
 #     feedback:
 #       title: Was this page helpful?
