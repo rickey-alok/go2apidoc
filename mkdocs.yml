@@ -17,8 +17,8 @@ theme:
       type: material/alert-box
   features:
     # - header.autohide
-    - navigation.top
-    # - navigation.footer
+    # - navigation.top
+    - navigation.footer
     # - navigation.tabs
     # - navigation.indexes
     # - navigation.sections
@@ -29,7 +29,7 @@ theme:
     # - search.highlight
     # - search.share
     # - content.tabs.link
-    - content.code.annotate
+    # - content.code.annotate
     # - content.code.copy
     - content.action.view
     - content.action.edit
@@ -63,7 +63,10 @@ nav:
       - VS-Code: Docs-as-Code/VS-Code.md
       - Git & GitHub: Docs-as-Code/Git-GitHub.md
       - Postman: Docs-as-Code/Postman.md
-
+  - API Docs:
+      - Markdown: API Docs/Markdown.md
+      - OpenAPI Specification: API Docs/OepnAPISpec.md
+      - JSON: API Docs/JSON.md
 extra_css:
   - stylesheets/extra.css
 
