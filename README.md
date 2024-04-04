@@ -1,3 +1,3 @@
-Output file at below URL:
+Output file at the below URL:
 
-https://rickey-alok.github.io/api-go2doc/Docs-as-Code/Git-GitHub/
+https://rickey-alok.github.io/api-go2doc/
