@@ -48,3 +48,27 @@ Below is an example showing how a google API is integrated in this page.
 ```
 Ingetration map will come over here.
 ```
+
+# Sample API creation steps
+
+We're going to create an api using NODE.js application. Node.JS runs on any operating system - such as Chrome, Firefox, Safari, Internet Explorer and so on. But for this project we will run in VS code editor, which also supports Node.JS.
+
+## Prerequisites
+
+<ol><li>Install Node.Js application. Refer to Download Node.JS
+<ol type="a">
+    <li>Make sure to select LTS (long Term Support), and not the CURRENT version. LTS considered the more stable version and not grequently updated, but for the Current version it is other way around.</li>
+    <li>Select Windows installer if you have windows installer.</li>
+    <li>Follow the screen text to get the application downloaded.</li>
+    <li>Once the application is donwloaded, opem command prompt, and just type <em>node --version</em> or <em>node -v</em>. you'll be presented with the installed version, something like <em>v18.12.1</em> if the application is installed successfully.</li>
+</ol>
+</li>
+<li>Install VS code application.</li></ol>
+
+---
+
+??? note
+
+    `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+    massa, nec semper lorem quam in massa.`

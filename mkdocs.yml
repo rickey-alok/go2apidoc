@@ -16,24 +16,25 @@ theme:
     admonition:
       type: material/alert-box
   features:
-    - header.autohide
+    # - header.autohide
     - navigation.top
-    - navigation.footer
-    - navigation.tabs
-    - navigation.sections
-    - navigation.instant
-    - navigation.instant.prefetch
-    - toc.integerate
-    - search.suggest
-    - search.highlight
-    - search.share
-    - content.tabs.link
+    # - navigation.footer
+    # - navigation.tabs
+    # - navigation.indexes
+    # - navigation.sections
+    # - navigation.instant
+    # - navigation.instant.prefetch
+    # - toc.integerate
+    # - search.suggest
+    # - search.highlight
+    # - search.share
+    # - content.tabs.link
     - content.code.annotate
-    - content.code.copy
+    # - content.code.copy
     - content.action.view
     - content.action.edit
   palette:
-    # - primary: custom
+    - primary: custom
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
       toggle:
@@ -57,10 +58,11 @@ theme:
 use_directory_urls: true
 nav:
   - Home: index.md
+  - API: API.md
   - Docs-as-Code:
-      - API: Docs-as-Code/API.md
-      - Git & GitHub: Docs-as-Code/Git-GitHub.md
       - VS-Code: Docs-as-Code/VS-Code.md
+      - Git & GitHub: Docs-as-Code/Git-GitHub.md
+      - Postman: Docs-as-Code/Postman.md
 
 extra_css:
   - stylesheets/extra.css
