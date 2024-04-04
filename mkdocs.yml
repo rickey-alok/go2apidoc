@@ -1,7 +1,7 @@
 site_name: API-Go2Doc
 site_url: https://example.com/
-repo_url: https://github.com/rickey-alok/mk-doc
-repo_name: rickey-alok/mk-doc
+repo_url: https://github.com/rickey-alok/api-go2doc
+repo_name: rickey-alok/api-go2doc
 theme:
   name: material
   language: en
@@ -16,17 +16,19 @@ theme:
     admonition:
       type: material/alert-box
   features:
+    - header.autohide
+    - navigation.top
     - navigation.footer
     - navigation.tabs
-    - navigation.top
     - navigation.sections
     - navigation.instant
     - navigation.instant.prefetch
     - toc.integerate
     - search.suggest
     - search.highlight
+    - search.share
     - content.tabs.link
-    - content.code.annotations
+    - content.code.annotate
     - content.code.copy
     - content.action.view
     - content.action.edit
@@ -63,29 +65,29 @@ nav:
 extra_css:
   - stylesheets/extra.css
 
-extra:
-  # alternate:
-  #   - name: English
-  #     link: /en/
-  #     lang: en
-  #   - name: Deutsch
-  #     link: /de/
-  #     lang: de
-  analytics:
-    feedback:
-      title: Was this page helpful?
-      ratings:
-        - icon: material/emoticon-happy-outline
-          name: This page was helpful
-          data: 1
-          note: >-
-            Thanks for your feedback!
-        - icon: material/emoticon-sad-outline
-          name: This page could be improved
-          data: 0
-          note: >-
-            Thanks for your feedback! Help us improve this page by
-            using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
+# extra:
+#   alternate:
+#     - name: English
+#       link: /en/
+#       lang: en
+#     - name: Deutsch
+#       link: /de/
+#       lang: de
+#   analytics:
+#     feedback:
+#       title: Was this page helpful?
+#       ratings:
+#         - icon: material/emoticon-happy-outline
+#           name: This page was helpful
+#           data: 1
+#           note: >-
+#             Thanks for your feedback!
+#         - icon: material/emoticon-sad-outline
+#           name: This page could be improved
+#           data: 0
+#           note: >-
+#             Thanks for your feedback! Help us improve this page by
+#             using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
 plugins:
   - git-authors
 
