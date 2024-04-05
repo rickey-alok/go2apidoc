@@ -7,19 +7,23 @@ theme:
   language: en
   logo: https://t4.ftcdn.net/jpg/03/22/95/69/360_F_322956978_9ESBVewTYdhSu9G6qf2JazX9tUsdh53g.jpg
   favicon: https://t4.ftcdn.net/jpg/03/22/95/69/360_F_322956978_9ESBVewTYdhSu9G6qf2JazX9tUsdh53g.jpg
+  font:
+    text: Roboto
+    code: Roboto Mono
   icon:
     repo: fontawesome/brands/github
     previous: fontawesome/solid/angle-left
     next: fontawesome/solid/angle-right
     edit: material/pencil
     view: material/eye
+    annotation: material/star-four-points-circle
     admonition:
       type: material/alert-box
   features:
     # - header.autohide
     # - navigation.top
-    # - navigation.footer
-    # - navigation.tabs
+    - navigation.footer
+    - navigation.tabs
     # - navigation.tabs.stickey
     # - navigation.indexes
     - navigation.sections
@@ -27,7 +31,7 @@ theme:
     - navigation.path
     - navigation.instant
     - navigation.instant.prefetch
-    - toc.integrate
+    # - toc.integrate
     - search.suggest
     - search.highlight
     - search.share
@@ -80,7 +84,7 @@ extra:
       link: .
       lang: en
     - name: Français
-      link: /fr/
+      link: ./fr/
       lang: fr
     - analytics:
       provider: google
@@ -97,27 +101,30 @@ extra:
         lang:
           - en
           - fr
+    - minify:
+      minify_html: true
     - i18n:
+      default language: en
       docs_structure: suffix
       fallback_to_default: true
-      reconfigure_search: true
-    - redirects:
-        redirect_maps:
-          "docs/index.md": "docs/index.fr.md"
+      reconfigure_search: false
       languages:
         - locale: en
           name: English
           build: true
-          default: true
         - locale: fr
           name: Français
           build: true
 
 markdown_extensions:
   - admonition
-  - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
   - attr_list
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
   # - material.extensions.preview:
   #   sources:
   #     include:
@@ -130,4 +137,4 @@ markdown_extensions:
   #     exclude:
   #       - ...
 
-copyright: Copyright &copy; 2024 , Site Author -  <a href="https://www.linkedin.com/in/alok-ranjan-34817a17/">Alok Ranjan</a>
+copyright: Copyright &copy; 2016-2024 Martin Donath

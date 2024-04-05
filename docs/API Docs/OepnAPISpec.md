@@ -187,7 +187,7 @@
      - content
      - required
    - headers
-   - [securitySchemes](securitySchemes.md)
+   - [securitySchemes](#)
    - links
      - operationRef
      - operationId
