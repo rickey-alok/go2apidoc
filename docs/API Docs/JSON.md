@@ -1,16 +1,5 @@
 # JSON - Cheat sheet
 
-<!-- TOC -->
-
-- [JSON - Cheat sheet](#json---cheat-sheet)
-  - [Introduction](#introduction)
-  - [Examples](#examples)
-  - [Data Types](#data-types)
-  - [String](#string)
-  - [Number](#number)
-
-<!-- /TOC -->
-
 ## Introduction
 
 - stands for JavaScript Object Notation

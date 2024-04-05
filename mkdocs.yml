@@ -8,23 +8,26 @@ theme:
   logo: https://t4.ftcdn.net/jpg/03/22/95/69/360_F_322956978_9ESBVewTYdhSu9G6qf2JazX9tUsdh53g.jpg
   favicon: https://t4.ftcdn.net/jpg/03/22/95/69/360_F_322956978_9ESBVewTYdhSu9G6qf2JazX9tUsdh53g.jpg
   icon:
+    repo: fontawesome/brands/github
     previous: fontawesome/solid/angle-left
     next: fontawesome/solid/angle-right
-    repo: fontawesome/brands/github
     edit: material/pencil
     view: material/eye
     admonition:
       type: material/alert-box
   features:
-    - header.autohide
-    - navigation.top
-    - navigation.footer
-    - navigation.tabs
-    - navigation.indexes
+    # - header.autohide
+    # - navigation.top
+    # - navigation.footer
+    # - navigation.tabs
+    # - navigation.tabs.stickey
+    # - navigation.indexes
     - navigation.sections
+    - navigation.expand
+    - navigation.path
     - navigation.instant
     - navigation.instant.prefetch
-    - toc.integerate
+    - toc.integrate
     - search.suggest
     - search.highlight
     - search.share
@@ -39,21 +42,21 @@ theme:
     - media: "(prefers-color-scheme)"
       toggle:
         icon: material/brightness-auto
-        name: Switch to light mode
+        name: Switch to system preference
 
     # Palette toggle for light mode
-    - media: "(prefers-color-scheme: light)"
+    - media: "(prefers-color-scheme: dark)"
       scheme: default
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
 
     # Palette toggle for dark mode
-    - media: "(prefers-color-scheme: dark)"
+    - media: "(prefers-color-scheme: light)"
       scheme: slate
       toggle:
         icon: material/brightness-4
-        name: Switch to system preference
+        name: Switch to light mode
 
 use_directory_urls: true
 nav:
@@ -74,38 +77,57 @@ extra_css:
 extra:
   alternate:
     - name: English
-      link: /en/
+      link: .
       lang: en
-    - name: Deutsch
-      link: /de/
-      lang: de
-#   analytics:
-#     feedback:
-#       title: Was this page helpful?
-#       ratings:
-#         - icon: material/emoticon-happy-outline
-#           name: This page was helpful
-#           data: 1
-#           note: >-
-#             Thanks for your feedback!
-#         - icon: material/emoticon-sad-outline
-#           name: This page could be improved
-#           data: 0
-#           note: >-
-#             Thanks for your feedback! Help us improve this page by
-#             using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
-plugins:
-  - git-authors
-  - search
-  - i18n:
-      default_language: en
-      languages:
-        en: English
-        fr: Francais
+    - name: Français
+      link: /fr/
+      lang: fr
+    - analytics:
+      provider: google
+      property: G-0STBM9BNC1
+    - social:
+        - icon: fontawesome/brands/github
+          link: https://github.com/spaceship-prompt/spaceship-prompt
+        - icon: fontawesome/brands/twitter
+          link: https://twitter.com/SpaceshipPrompt
 
-copyright: Copyright &copy; 2024 , Maintained by the <a href="https://www.linkedin.com/in/alok-ranjan-34817a17/">Alok Ranjan</a>.
+  plugins:
+    - git-authors
+    - search:
+        lang:
+          - en
+          - fr
+    - i18n:
+      docs_structure: suffix
+      fallback_to_default: true
+      reconfigure_search: true
+    - redirects:
+        redirect_maps:
+          "docs/index.md": "docs/index.fr.md"
+      languages:
+        - locale: en
+          name: English
+          build: true
+          default: true
+        - locale: fr
+          name: Français
+          build: true
 
 markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - attr_list
+  # - material.extensions.preview:
+  #   sources:
+  #     include:
+  #       - ...
+  #     exclude:
+  #       - ...
+  #   targets:
+  #     include:
+  #       - ...
+  #     exclude:
+  #       - ...
+
+copyright: Copyright &copy; 2024 , Site Author -  <a href="https://www.linkedin.com/in/alok-ranjan-34817a17/">Alok Ranjan</a>
