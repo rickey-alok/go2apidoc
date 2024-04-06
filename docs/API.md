@@ -60,3 +60,5 @@ We're going to create an api using NODE.js application. Node.JS runs on any oper
 2.  Install VS code application.
 
 ---
+
+note:

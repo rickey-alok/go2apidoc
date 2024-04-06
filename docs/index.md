@@ -1,8 +1,9 @@
 ---
 hide: [navigation]
+status: new
 ---
 
-# Welcome to API-Go2Doc: Simplifying API Documentation Journey
+# Welcome to APIGo2Doc: Simplifying API Documentation
 
 ![doc-image](https://rickey-alok.github.io/api-go-to-doc/img/home_page_img.png)
 
@@ -17,8 +18,6 @@ When we talk about the API documentation, we often hear the term `Docs-as-Code` 
 
 One of the best things is that no need to spend a single penny to access these software tools as they are all open-source 😁.
 
----
-
 # Key Topics for API Documentation
 
 As you embark on this journey, consider exploring the following topics. But before delving into these topics, let’s start with the basics: What is an API? It’s a fundamental question that sets the stage for your exploration.
@@ -30,7 +29,7 @@ As you embark on this journey, consider exploring the following topics. But befo
 
 ---
 
-[: fontawesome-solid-paper-plane](#){ .md-button .md-button--primary}
+[: fontawesome-solid-paper-plane](#){ .md-button }
 
 ---
 

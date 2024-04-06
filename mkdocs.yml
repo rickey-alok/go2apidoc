@@ -1,7 +1,7 @@
-site_name: API-Go2Doc
+site_name: ApiGo2Doc
 site_url: https://example.com/
-repo_url: https://github.com/rickey-alok/api-go2doc
-repo_name: rickey-alok/api-go2doc
+repo_url: https://github.com/rickey-alok/apigo2doc
+repo_name: rickey-alok/apigo2doc
 theme:
   name: material
   language: en
@@ -21,11 +21,11 @@ theme:
       type: material/alert-box
   features:
     # - header.autohide
-    # - navigation.top
+    - navigation.top
     - navigation.footer
     - navigation.tabs
-    # - navigation.tabs.stickey
-    # - navigation.indexes
+    - navigation.tabs.stickey
+    - navigation.indexes
     - navigation.sections
     - navigation.expand
     - navigation.path
@@ -38,34 +38,40 @@ theme:
     - content.tabs.link
     - content.code.annotate
     - content.code.copy
-    - content.action.view
+    # - content.action.view
     - content.action.edit
   palette:
-    - primary: custom
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
+      scheme: custom
       toggle:
         icon: material/brightness-auto
-        name: Switch to system preference
+        name: Switch to light mode
 
     # Palette toggle for light mode
-    - media: "(prefers-color-scheme: dark)"
+    - media: "(prefers-color-scheme: light)"
       scheme: default
+      primary: teal
+      accent: teal
       toggle:
-        icon: material/brightness-7
+        icon: material/weather-sunny
         name: Switch to dark mode
 
     # Palette toggle for dark mode
-    - media: "(prefers-color-scheme: light)"
+    - media: "(prefers-color-scheme: dark)"
       scheme: slate
+      primary: teal
+      accent: teal
       toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
-
+        icon: material/weather-night
+        name: Switch to system preference
+  extra_css:
+    - stylesheets/extra.css
 use_directory_urls: true
 nav:
   - Home: index.md
   - API: API.md
+  - Calculator: Calculator.md
   - Docs-as-Code:
       - VS-Code: Docs-as-Code/VS-Code.md
       - Git & GitHub: Docs-as-Code/Git-GitHub.md
@@ -75,10 +81,12 @@ nav:
       - OpenAPI Specification: API Docs/OepnAPISpec.md
       - JSON: API Docs/JSON.md
       - cURL: API Docs/cURL.md
-extra_css:
-  - stylesheets/extra.css
 
+# Additional configuration
 extra:
+  status:
+    new: Recently added
+    deprecated: Deprecated
   alternate:
     - name: English
       link: .
@@ -115,6 +123,7 @@ extra:
         - locale: fr
           name: Français
           build: true
+    - mkdocstrings
 
 markdown_extensions:
   - admonition
