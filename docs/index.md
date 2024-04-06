@@ -29,10 +29,6 @@ As you embark on this journey, consider exploring the following topics. But befo
 
 ---
 
-[: fontawesome-solid-paper-plane](#){ .md-button }
-
----
-
 ## Grouping code blocks
 
 === "C"

@@ -71,7 +71,7 @@ use_directory_urls: true
 nav:
   - Home: index.md
   - API: API.md
-  - Calculator: Calculator.md
+  - package_library: package_library.md
   - Docs-as-Code:
       - VS-Code: Docs-as-Code/VS-Code.md
       - Git & GitHub: Docs-as-Code/Git-GitHub.md
@@ -104,6 +104,7 @@ extra:
           link: https://twitter.com/SpaceshipPrompt
 
   plugins:
+    - info
     - git-authors
     - search:
         lang:
@@ -123,7 +124,12 @@ extra:
         - locale: fr
           name: Français
           build: true
-    - mkdocstrings
+    - autorefs
+    - mkdocstrings:
+      handlers:
+        python:
+          import:
+            - https://installer.readthedocs.io/en/stable/objects.inv
 
 markdown_extensions:
   - admonition
