@@ -3,12 +3,13 @@ site_url: https://example.com/
 repo_url: https://github.com/rickey-alok/apigo2doc
 repo_name: rickey-alok/apigo2doc
 theme:
+  # custom_dir: docs/overrides
   name: material
   language: en
   logo: https://t4.ftcdn.net/jpg/03/22/95/69/360_F_322956978_9ESBVewTYdhSu9G6qf2JazX9tUsdh53g.jpg
   favicon: https://t4.ftcdn.net/jpg/03/22/95/69/360_F_322956978_9ESBVewTYdhSu9G6qf2JazX9tUsdh53g.jpg
   font:
-    text: Roboto
+    text: Kalam
     code: Roboto Mono
   icon:
     repo: fontawesome/brands/github
@@ -41,37 +42,29 @@ theme:
     # - content.action.view
     - content.action.edit
   palette:
-    # Palette toggle for automatic mode
-    - media: "(prefers-color-scheme)"
-      scheme: custom
-      toggle:
-        icon: material/brightness-auto
-        name: Switch to light mode
+    - scheme: youtube
+  #   # Palette toggle for light mode
+  #   - media: "(prefers-color-scheme: light)"
+  #     primary: teal
+  #     accent: orange
+  #     toggle:
+  #       icon: material/weather-sunny
+  #       name: Switch to dark mode
 
-    # Palette toggle for light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: teal
-      accent: teal
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to dark mode
-
-    # Palette toggle for dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: teal
-      accent: teal
-      toggle:
-        icon: material/weather-night
-        name: Switch to system preference
-  extra_css:
-    - stylesheets/extra.css
+  #   # Palette toggle for dark mode
+  #   - media: "(prefers-color-scheme: dark)"
+  #     scheme: slate
+  #     primary: pink
+  #     accent: pink
+  #     toggle:
+  #       icon: material/weather-night
+  #       name: Switch to system preference
+extra_css:
+  - stylesheets/extra.css
 use_directory_urls: true
 nav:
   - Home: index.md
   - API: API.md
-  - package_library: package_library.md
   - Docs-as-Code:
       - VS-Code: Docs-as-Code/VS-Code.md
       - Git & GitHub: Docs-as-Code/Git-GitHub.md
@@ -89,11 +82,11 @@ extra:
     deprecated: Deprecated
   alternate:
     - name: English
-      link: .
+      link: /en/
       lang: en
-    - name: Français
-      link: ./fr/
-      lang: fr
+    - name: Afrikaans
+      link: /af/
+      lang: af
     - analytics:
       provider: google
       property: G-0STBM9BNC1
@@ -102,14 +95,15 @@ extra:
           link: https://github.com/spaceship-prompt/spaceship-prompt
         - icon: fontawesome/brands/twitter
           link: https://twitter.com/SpaceshipPrompt
-
   plugins:
     - info
+    - projects:
+        projects: true
     - git-authors
     - search:
         lang:
           - en
-          - fr
+          - af
     - minify:
       minify_html: true
     - i18n:
@@ -121,8 +115,8 @@ extra:
         - locale: en
           name: English
           build: true
-        - locale: fr
-          name: Français
+        - locale: af
+          name: Afrikaans
           build: true
     - autorefs
     - mkdocstrings:
