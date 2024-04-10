@@ -1,4 +1,8 @@
-icon:material/home
+---
+hide:
+  - navigation
+  - toc
+---
 
 # Welcome to Go2APIDoc: Simplifying API Documentation
 
