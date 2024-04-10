@@ -6,36 +6,43 @@ Essential for version control and collaborative development
 
 ## Git
 
-!!! info inline end ""
-
-    ![image](https://rickey-alok.github.io/api-go-to-doc/img/git-logo.png)
+![Git](https://rickey-alok.github.io/api-go-to-doc/img/git-logo.png){ align=right }
 
 ### What is Git?
 
 - an open source
-  - so it is free to use and developers can modify the source code to suit their needs
+
+      - so it is free to use and developers can modify the source code to suit their needs
+
 - distributed version-control system, for software development mainly
-  - meaning there is no central point of control
-  - every computer is a full-fledged repository with complete history and full version-tracking abilities
+
+      - meaning there is no central point of control
+      - every computer is a full-fledged repository with complete history and full version-tracking abilities
+
 - but not a programming language
 - developed by **Linus Torvalds** in 2005
 
 ### Why do we use Git?
 
 - Collaboration
-  - allows multiple developers to work on the same project at the same time without interfering with one another
+
+      - allows multiple developers to work on the same project at the same time without interfering with one another
+
 - Branching
-  - allows developers to create branches of a project, so they can make changes without affecting the main version of the project
+
+      - allows developers to create branches of a project, so they can make changes without affecting the main version of the project
+
 - Speed
-  - fast and efficient system which allows developers to work quickly and seamlessly on projects
+
+      - fast and efficient system which allows developers to work quickly and seamlessly on projects
+
 - Security
-  - uses encryption to secure data transfer and storage, which helps keep sensitive information safe
+
+      - uses encryption to secure data transfer and storage, which helps keep sensitive information safe
 
 ## GitHub
 
-!!! info inline end ""
-
-    ![alt text](image-1.png)
+![GitHub](image-1.png){ align=right }
 
 ## What is GitHub?
 
@@ -59,35 +66,30 @@ Git offers a plethora of commands, but some are used only occasionally (One time
 
 ### One time commands
 
-- **[git init]:** initialize an existing directory as a Git repository
-- **[git config --global user.email "xyz@gmail.com"]**: set an email address that will be associated with each history marker
-- **[git config --global user.name "yourName"]**: set a name that is identifiable for credit when review version history
-- **[git remote add origin "url - http or SHH"]**: add a remote repository
-- **[git clone "url - http or SHH"]**: retrieve an entire repository from a hosted location via URL
+- **[git init]** - initialize an existing directory as a Git repository
+- **[git config --global user.email "xyz@gmail.com"]** - set an email address that will be associated with each history marker
+- **[git config --global user.name "yourName"]** - set a name that is identifiable for credit when review version history
+- **[git remote add origin "url - http or SHH"]** - add a remote repository
+- **[git clone "url - http or SHH"]** - retrieve an entire repository from a hosted location via URL
 
 ### Frequently used commands</h2>
 
 <ul>
-<li><strong>[git status]</strong>: show modified files in working directory, staged for your next commit</li>
-<li><strong>[git log]</strong>: show the commit history for the currently active branch</li>
-<li><strong>[git add -A]</strong>: stages all files</li>
-<li><strong>[git add .]</strong>: stages modified and NEW files, without DELETED file</li>
-<li><strong>[git add -u]</strong>: stages modified and DELETED files, without NEW file</li>
-<li><strong>[git commit -m "message"]</strong>: commit your staged content as a new commit snapshot</li>
-<li><strong>[git commit -am "message"]</strong>: `stage and commit` your new commit snapshot</li>
-<li><strong>[git diff]</strong>: diff of what is changed but not staged</li>
-<li><strong>[git diff --staged]</strong>: diff of what is staged but not yet commited</li>
-<li><strong>[git diff head]</strong>: diff of what is changed but not commited</li>
-<li><strong>[git branch]</strong>: list your branches. a \* will appear next to the currently active branch</li>
-<li><strong>[git checkout]</strong>: switch to another branch and check it out into your working directory</li>
-<li><strong>[git push remote branch1 or just - git push]</strong>: Transmit local branch commits to the remote repository branch</li>
-<li><strong>[git pull remote branch1 or just - git pull]</strong>: fetch and merge any commits from the tracking remote branch</li>
-<li><strong>[git fetch]</strong>: fetch down all the branches from that Git remote</li>
-<li><strong>[git merge branch1]</strong>: merge a remote branch into your current branch to bring it up to date</li>
-<li><strong>[git rebase Master]</strong>: apply any commits of current branch ahead of specified one</li>
+<li><strong>[git status]</strong> -  show modified files in working directory, staged for your next commit</li>
+<li><strong>[git log]</strong> -  show the commit history for the currently active branch</li>
+<li><strong>[git add -A]</strong> -  stages all files</li>
+<li><strong>[git add .]</strong> -  stages modified and NEW files, without DELETED file</li>
+<li><strong>[git add -u]</strong> -  stages modified and DELETED files, without NEW file</li>
+<li><strong>[git commit -m "message"]</strong> -  commit your staged content as a new commit snapshot</li>
+<li><strong>[git commit -am "message"]</strong> -  `stage and commit` your new commit snapshot</li>
+<li><strong>[git diff]</strong> -  diff of what is changed but not staged</li>
+<li><strong>[git diff --staged]</strong> -  diff of what is staged but not yet commited</li>
+<li><strong>[git diff head]</strong> -  diff of what is changed but not commited</li>
+<li><strong>[git branch]</strong> -  list your branches. a \* will appear next to the currently active branch</li>
+<li><strong>[git checkout]</strong> -  switch to another branch and check it out into your working directory</li>
+<li><strong>[git push remote branch1 or just - git push]</strong> -  Transmit local branch commits to the remote repository branch</li>
+<li><strong>[git pull remote branch1 or just - git pull]</strong> -  fetch and merge any commits from the tracking remote branch</li>
+<li><strong>[git fetch]</strong> -  fetch down all the branches from that Git remote</li>
+<li><strong>[git merge branch1]</strong> -  merge a remote branch into your current branch to bring it up to date</li>
+<li><strong>[git rebase Master]</strong> -  apply any commits of current branch ahead of specified one</li>
 </ul>
-!!! note
-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
-      nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
-      massa, nec semper lorem quam in massa.

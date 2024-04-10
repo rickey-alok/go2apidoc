@@ -89,3 +89,11 @@ Lorem ipsum dolor sit amet, (1) consectetur adipiscing elit.
     { .annotate }
 
     1.  :woman_raising_hand: I'm an annotation as well!
+
+# note
+
+!!! note
+
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+      nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+      massa, nec semper lorem quam in massa.
