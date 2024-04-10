@@ -72,8 +72,9 @@ nav:
   - For writing API Docs:
       - Markdown: API Docs/Markdown.md
       - OpenAPI Specification: API Docs/OepnAPISpec.md
-      - JSON: API Docs/JSON.md
       - cURL: API Docs/cURL.md
+      - JSON: API Docs/JSON.md
+      - Miscellaneous: API Docs/Miscellaneous.md
 
 # Additional configuration
 extra:

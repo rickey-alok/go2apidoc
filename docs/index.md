@@ -6,22 +6,34 @@ hide:
 
 # Welcome to Go2APIDoc: Simplifying API Documentation
 
+Go2APIDoc is a reference guide that you can turn to for information and guidance on topics related to API Documentation only. This reference guide aims to present information in a simple, easy-to-understand language so that even a writer who is new to API writing can understand the concept easier.
 ![doc-image](./img/home_page_img.png)
 
-`Go2APIDoc` portal is a reference guide that one can turn to for information and guidance on topics related to API Documentation only. It aims to present information in a simple, easy-to-understand language. Just straightforward concepts at one place - no more husstle.
+<hr>
 
-When we talk about the API documentation, we often hear the term `Docs-as-Code` approach. This approach involves creating documentation using the same tools and processes that developers use for coding. So, to be in the shoes of a developers, you must familiarize yourself with the topics below:
+# API
 
-- **Visual Studio Code (VS Code)**: A versatile code editor that developers love
-- **Git & GitHub**: Essential for version control and collaborative development
+Let’s start with the basics - What is an API? It’s a fundamental question that sets the stage for your exploration.
 
-- **Postman**: Simplify API testing and collaboration.
+[API](./API.md){ .md-button }
 
-One of the best things is that no need to spend a single penny to access these software tools as they are all open-source.
+<hr>
+
+# Docs-as-Code
+
+In API documentation, you might have heard the word `Docs-as-Code`. What is this really? Basically, this approach involves creating documentation using the tools and processes that developers use for coding and collaboration. So, to be in the shoes of a developers, you must familiarize yourself with these below topics that will help you to get along in this API journey.
+
+One of the best things is that you no need to spend a single penny to access these software/tools as they are all open-source. So, I encourage you all to go ahead and download these below softwares to get some hands-on.
+
+[Visual Studio Code (VS Code) ](./Docs-as-Code/VS-Code.md){ .md-button }
+[Git & GitHub](./Docs-as-Code/Git-GitHub.md){ .md-button }
+[Postman](./Docs-as-Code/Postman.md){ .md-button }
+
+<hr>
 
 # Key Topics for API Documentation
 
-As you embark on this journey, consider exploring the following topics. But before delving into these topics, let’s start with the basics: What is an API? It’s a fundamental question that sets the stage for your exploration.
+As you embark on this API journey, consider exploring the following topics.
 
 [Markdown ](./API%20Docs/Markdown.md){ .md-button }
 [OpenAPI Specification](./API%20Docs/OepnAPISpec.md){ .md-button }
@@ -29,91 +41,3 @@ As you embark on this journey, consider exploring the following topics. But befo
 [JSON](./API%20Docs/JSON.md){ .md-button }
 
 ---
-
-## Grouping code blocks
-
-=== "C"
-
-    ``` c
-    #include <stdio.h>
-
-    int main(void) {
-      printf("Hello world!\n");
-      return 0;
-    }
-    ```
-
-=== "C++"
-
-    ``` c++
-    #include <iostream>
-
-    int main(void) {
-      std::cout << "Hello world!" << std::endl;
-      return 0;
-    }
-    ```
-
----
-
-## Grouping other content
-
-=== "Unordered list"
-
-    * Sed sagittis eleifend rutrum
-    * Donec vitae suscipit est
-    * Nulla tempor lobortis orci
-
-=== "Ordered list"
-
-    1. Sed sagittis eleifend rutrum
-    2. Donec vitae suscipit est
-    3. Nulla tempor lobortis orci
-
----
-
-## Embedded content
-
-!!! example
-
-    === "Unordered List"
-
-        ``` markdown
-        * Sed sagittis eleifend rutrum
-        * Donec vitae suscipit est
-        * Nulla tempor lobortis orci
-        ```
-
-    === "Ordered List"
-
-        ``` markdown
-        1. Sed sagittis eleifend rutrum
-        2. Donec vitae suscipit est
-        3. Nulla tempor lobortis orci
-        ```
-
----
-
-## Using annotations
-
-Lorem ipsum dolor sit amet, (1) consectetur adipiscing elit.
-{ .annotate }
-
-1.  :man_raising_hand: I'm an annotation! I can contain `code`, **formatted
-    text**, images, ... basically anything that can be expressed in Markdown.
-
-# heading2
-
-=== "Tab 1"
-
-    Lorem ipsum dolor sit amet, (1) consectetur adipiscing elit.
-    { .annotate }
-
-    1.  :man_raising_hand: I'm an annotation!
-
-=== "Tab 2"
-
-    Phasellus posuere in sem ut cursus (1)
-    { .annotate }
-
-    1.  :woman_raising_hand: I'm an annotation as well!

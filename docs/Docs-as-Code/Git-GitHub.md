@@ -2,6 +2,8 @@ icon: simple/github
 
 # Git & GitHub - Cheat sheet
 
+Essential for version control and collaborative development
+
 ## Git
 
 !!! info inline end ""
