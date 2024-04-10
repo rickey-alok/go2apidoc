@@ -1,11 +1,6 @@
----
-hide: [navigation]
-status: new
----
+# Welcome to Go2APIDoc: Simplifying API Documentation
 
-# Welcome to APIGo2Doc: Simplifying API Documentation
-
-![doc-image](https://rickey-alok.github.io/api-go-to-doc/img/home_page_img.png)
+![doc-image](./img/home_page_img.png)
 
 `API-Go2Doc` portal is a reference guide that one can turn to for information and guidance on topics related to API Documentation only. It aims to present information in a simple, easy-to-understand language. Just straightforward concepts at one place - no more husstle.
 

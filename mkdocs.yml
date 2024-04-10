@@ -1,9 +1,10 @@
-site_name: ApiGo2Doc
-site_url: https://example.com/
-repo_url: https://github.com/rickey-alok/apigo2doc
-repo_name: rickey-alok/apigo2doc
+site_name: Go2ApiDoc
+site_url: https://github.com/rickey-alok/
+repo_url: https://github.com/rickey-alok/go2apidoc
+repo_name: rickey-alok/go2apidoc
 theme:
   # custom_dir: docs/overrides
+  background-image: https://th.bing.com/th/id/OIP.TLNOQBjhorlJhh_MbLSCBQHaE7?pid=ImgDet&w=208&h=138&c=7&dpr=1.5
   name: material
   language: en
   logo: https://t4.ftcdn.net/jpg/03/22/95/69/360_F_322956978_9ESBVewTYdhSu9G6qf2JazX9tUsdh53g.jpg
@@ -42,23 +43,23 @@ theme:
     # - content.action.view
     - content.action.edit
   palette:
-    - scheme: youtube
-  #   # Palette toggle for light mode
-  #   - media: "(prefers-color-scheme: light)"
-  #     primary: teal
-  #     accent: orange
-  #     toggle:
-  #       icon: material/weather-sunny
-  #       name: Switch to dark mode
+    # - scheme: red
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      primary: white
+      accent: white
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
 
-  #   # Palette toggle for dark mode
-  #   - media: "(prefers-color-scheme: dark)"
-  #     scheme: slate
-  #     primary: pink
-  #     accent: pink
-  #     toggle:
-  #       icon: material/weather-night
-  #       name: Switch to system preference
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: black
+      toggle:
+        icon: material/weather-night
+        name: Switch to system preference
 extra_css:
   - stylesheets/extra.css
 use_directory_urls: true
@@ -77,33 +78,39 @@ nav:
 
 # Additional configuration
 extra:
+  version:
+    dafault:
+      - stable
+      - development
+    provider: mike
   status:
     new: Recently added
     deprecated: Deprecated
-  alternate:
-    - name: English
-      link: /en/
-      lang: en
-    - name: Afrikaans
-      link: /af/
-      lang: af
-    - analytics:
-      provider: google
-      property: G-0STBM9BNC1
+  # # alternate:
+  #   # - name: English
+  #   #   link: /en/
+  #   #   lang: en
+  #   # - name: Afrikaans
+  #   #   link: /af/
+  #   #   lang: af
+  #   - analytics:
+  #     provider: google
+  #     property: G-0STBM9BNC1
+
+  plugins:
+    - info
+    - git-authors
     - social:
         - icon: fontawesome/brands/github
           link: https://github.com/spaceship-prompt/spaceship-prompt
         - icon: fontawesome/brands/twitter
           link: https://twitter.com/SpaceshipPrompt
-  plugins:
-    - info
-    - projects:
-        projects: true
-    - git-authors
-    - search:
-        lang:
-          - en
-          - af
+    # - projects:
+    #     projects: true
+    # - search:
+    #     lang:
+    #       - en
+    #       - af
     - minify:
       minify_html: true
     - i18n:
