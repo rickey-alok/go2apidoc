@@ -1,3 +1,5 @@
+icon: simple/github
+
 # Git & GitHub - Cheat sheet
 
 ## Git

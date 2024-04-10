@@ -1,3 +1,5 @@
+icon: simple/codepen
+
 # VS Code - Cheat sheet
 
 VS code, also known as Visual Studio Code, is a lightweight and powerful open-source code editor by Microsoft. It is prevalent amongst the developer community to build and debug applications.

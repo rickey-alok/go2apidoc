@@ -1,3 +1,5 @@
+icon: material/language-markdown
+
 # Markdown - Cheat sheet
 
 ## Headings

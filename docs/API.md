@@ -1,4 +1,4 @@
-icon:material/folder-lock
+icon: material/api
 
 # API - Cheat Sheet
 

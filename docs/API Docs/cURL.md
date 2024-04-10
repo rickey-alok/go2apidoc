@@ -1,3 +1,5 @@
+icon: simple/curl
+
 # CURL - Cheat sheet
 
 # Request

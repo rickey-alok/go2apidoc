@@ -4,7 +4,6 @@ repo_url: https://github.com/rickey-alok/go2apidoc
 repo_name: rickey-alok/go2apidoc
 theme:
   # custom_dir: docs/overrides
-  background-image: https://th.bing.com/th/id/OIP.TLNOQBjhorlJhh_MbLSCBQHaE7?pid=ImgDet&w=208&h=138&c=7&dpr=1.5
   name: material
   language: en
   logo: https://t4.ftcdn.net/jpg/03/22/95/69/360_F_322956978_9ESBVewTYdhSu9G6qf2JazX9tUsdh53g.jpg
@@ -37,11 +36,11 @@ theme:
     - search.suggest
     - search.highlight
     - search.share
-    - content.tabs.link
-    - content.code.annotate
+    # - content.tabs.link
+    # - content.code.annotate
     - content.code.copy
-    # - content.action.view
-    - content.action.edit
+    # - content.action.view #   `view icon` to the github repo
+    - content.action.edit #   `edit icon` to the github repo
   palette:
     # - scheme: red
     # Palette toggle for light mode
@@ -78,11 +77,6 @@ nav:
 
 # Additional configuration
 extra:
-  version:
-    dafault:
-      - stable
-      - development
-    provider: mike
   status:
     new: Recently added
     deprecated: Deprecated
@@ -100,17 +94,6 @@ extra:
   plugins:
     - info
     - git-authors
-    - social:
-        - icon: fontawesome/brands/github
-          link: https://github.com/spaceship-prompt/spaceship-prompt
-        - icon: fontawesome/brands/twitter
-          link: https://twitter.com/SpaceshipPrompt
-    # - projects:
-    #     projects: true
-    # - search:
-    #     lang:
-    #       - en
-    #       - af
     - minify:
       minify_html: true
     - i18n:
@@ -126,11 +109,6 @@ extra:
           name: Afrikaans
           build: true
     - autorefs
-    - mkdocstrings:
-      handlers:
-        python:
-          import:
-            - https://installer.readthedocs.io/en/stable/objects.inv
 
 markdown_extensions:
   - admonition
@@ -141,16 +119,5 @@ markdown_extensions:
   - def_list
   - pymdownx.tasklist:
       custom_checkbox: true
-  # - material.extensions.preview:
-  #   sources:
-  #     include:
-  #       - ...
-  #     exclude:
-  #       - ...
-  #   targets:
-  #     include:
-  #       - ...
-  #     exclude:
-  #       - ...
 
 copyright: Copyright &copy; 2016-2024 Martin Donath

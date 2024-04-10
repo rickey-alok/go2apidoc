@@ -1,3 +1,5 @@
+icon: simple/json
+
 # JSON - Cheat sheet
 
 ## Introduction

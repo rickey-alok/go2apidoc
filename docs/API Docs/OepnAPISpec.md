@@ -1,3 +1,5 @@
+icon: simple/openapiinitiative
+
 # OpenAPI Specification
 
 ## Advantage using OpenAPI

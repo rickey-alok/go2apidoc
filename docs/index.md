@@ -1,8 +1,10 @@
+icon:material/home
+
 # Welcome to Go2APIDoc: Simplifying API Documentation
 
 ![doc-image](./img/home_page_img.png)
 
-`API-Go2Doc` portal is a reference guide that one can turn to for information and guidance on topics related to API Documentation only. It aims to present information in a simple, easy-to-understand language. Just straightforward concepts at one place - no more husstle.
+`Go2APIDoc` portal is a reference guide that one can turn to for information and guidance on topics related to API Documentation only. It aims to present information in a simple, easy-to-understand language. Just straightforward concepts at one place - no more husstle.
 
 When we talk about the API documentation, we often hear the term `Docs-as-Code` approach. This approach involves creating documentation using the same tools and processes that developers use for coding. So, to be in the shoes of a developers, you must familiarize yourself with the topics below:
 
@@ -11,7 +13,7 @@ When we talk about the API documentation, we often hear the term `Docs-as-Code` 
 
 - **Postman**: Simplify API testing and collaboration.
 
-One of the best things is that no need to spend a single penny to access these software tools as they are all open-source 😁.
+One of the best things is that no need to spend a single penny to access these software tools as they are all open-source.
 
 # Key Topics for API Documentation
 
@@ -95,3 +97,19 @@ Lorem ipsum dolor sit amet, (1) consectetur adipiscing elit.
 
 1.  :man_raising_hand: I'm an annotation! I can contain `code`, **formatted
     text**, images, ... basically anything that can be expressed in Markdown.
+
+# heading2
+
+=== "Tab 1"
+
+    Lorem ipsum dolor sit amet, (1) consectetur adipiscing elit.
+    { .annotate }
+
+    1.  :man_raising_hand: I'm an annotation!
+
+=== "Tab 2"
+
+    Phasellus posuere in sem ut cursus (1)
+    { .annotate }
+
+    1.  :woman_raising_hand: I'm an annotation as well!
