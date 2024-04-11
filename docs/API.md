@@ -7,7 +7,10 @@ icon: material/api
 - API stands for - Application Programming Interface
 - A set of protocols that allow different applications to communicate and exchange data.
 
-<iframe src="./docs/img/API-video.mp4" allowfullscreen></iframe>
+<video width="50%" height="50%" autoplay muted>
+  <source src="./img/API-video.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
 
 ## Why do we use it?
 
