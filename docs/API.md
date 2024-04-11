@@ -7,6 +7,8 @@ icon: material/api
 - API stands for - Application Programming Interface
 - A set of protocols that allow different applications to communicate and exchange data.
 
+<iframe src="./docs/img/API-video.mp4" allowfullscreen></iframe>
+
 ## Why do we use it?
 
 - API helps to integrate the existing functionality with a new application.
