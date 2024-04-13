@@ -1,10 +1,8 @@
 ## Use cases
 
-- API explains the `WHAT` and not the `HOW` part.
-
 Imagine you’re developing a food delivery app similar to Zomato or Swiggy. You want to incorporate a map (using Google Maps) that displays the registered users’ locations and the distance between their location and the restaurant once an order is placed. As the owner of the food delivery business, would you prefer spending time creating a map service from scratch, or would you opt for an existing solution like the Google Maps API and focus on your core business?
 
-In my view, it’s evident that leveraging an established service is the way to go. And when it comes to mapping services, what better choice than utilizing the “Google Maps API”?
+In my view, it’s evident that leveraging an established service is the way to go. And when it comes to mapping services, what would be better choice than utilizing the `Google Maps API` service?
 
 Now, let’s explore how we can seamlessly integrate the Google Maps API into our app (or website).
 
