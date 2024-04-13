@@ -1,12 +1,12 @@
 icon: simple/github
 
-# Git & GitHub - Cheat sheet
+# Git & GitHub
 
 Essential for version control and collaborative development
 
 ## Git
 
-![Git](https://rickey-alok.github.io/api-go-to-doc/img/git-logo.png){ align=right }
+![Git](https://git-scm.com/images/logos/logomark-orange@2x.png){ align=right width=100px, height=100px}
 
 ### What is Git?
 
@@ -42,7 +42,7 @@ Essential for version control and collaborative development
 
 ## GitHub
 
-![GitHub](image-1.png){ align=right }
+![GitHub](https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png){ align=right width=100px, height=100px}
 
 ## What is GitHub?
 
@@ -54,7 +54,7 @@ Essential for version control and collaborative development
 - makes it easy for developers to share code files and collaborate with fellow developers
 - also serves as a social networking site where developers can openly network, collaborate, and pitch their work
 
-### Git and GitHub workflow
+## Git and GitHub workflow
 
 At first, I use to struggle to grasp the intricacies of Git and GitHub workflows via command lines. Despite encountering numerous resources available on the internet that discussed these activities, their explanations remained unclear. So, I decided to simplify the process. After using these commands extensively, I created a visual workflow that explains the purpose of each command and makes them easier to remember.
 

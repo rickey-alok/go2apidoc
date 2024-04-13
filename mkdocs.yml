@@ -1,7 +1,7 @@
 site_name: Go2ApiDoc
 site_url: https://github.com/rickey-alok/
-repo_url: https://github.com/rickey-alok/go2apidoc
-repo_name: rickey-alok/go2apidoc
+# repo_url: https://github.com/rickey-alok/go2apidoc
+# repo_name: rickey-alok/go2apidoc
 theme:
   # custom_dir: docs/overrides
   name: material
