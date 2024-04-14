@@ -78,6 +78,7 @@ nav:
       - cURL: API Docs/cURL.md
       - JSON: API Docs/JSON.md
       - Miscellaneous: API Docs/Miscellaneous.md
+  - API Reference: JSR.md
 
 # Additional configuration
 extra:
@@ -124,5 +125,10 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.tasklist:
       custom_checkbox: true
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
 
 copyright: Copyright &copy; 2016-2024 Martin Donath
