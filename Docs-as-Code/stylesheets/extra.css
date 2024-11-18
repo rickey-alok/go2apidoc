@@ -1,0 +1,7 @@
+@font-face {
+  font-family: cedarville-cursive-regular;
+  src: "https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap";
+}
+:root {
+  --md-text-font: "cedarville-cursive-regular";
+}
