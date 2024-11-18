@@ -3,12 +3,12 @@ icon: simple/openapiinitiative
 # OpenAPI Specification
 
 ## What Is OpenAPI?
-* It is a broadly adopted industry standard or specification for describing RESTful API, which can be written in YAML or JSON format.
-* The other two specifications used for describing RESTful API are 
-* RAML 
-  * Written in YAML format
-* API Blueprint
-  * Written in Markdown format
+- It is a broadly adopted industry standard or specification for describing RESTful API, which can be written in YAML or JSON format.
+- The other two specifications used for describing RESTful API are 
+- RAML 
+   - Written in YAML format
+- API Blueprint
+   - Written in Markdown format
 
 ## Advantage using OpenAPI
 
