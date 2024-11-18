@@ -25,6 +25,8 @@ Another example is when you hit any keyword for a search on google.com. What exa
 
 ## Types of APIs
 
+### In terms of Architecture style
+
 API exchanges data based on cearly defined `protocols` and `architectures` - the rules, structures, and constraints that govern an API's operation.
 
 There are 6 main categories of API `protocols` or `architectures`:
@@ -80,4 +82,9 @@ There are 6 main categories of API `protocols` or `architectures`:
 ??? note " Webhook"
 
       - Webhook
+
+### In terms of Consumer usage
+- Private or Internal
+- Public or External
+- Partner
 
