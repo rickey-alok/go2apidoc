@@ -25,7 +25,7 @@ Another example is when you hit any keyword for a search on google.com. What exa
 
 ## Types of APIs
 
-API exchanges data based on cearly defined `protocols` and `architectures` - the rules, structures,and constraints that govern an API's operation.
+API exchanges data based on cearly defined `protocols` and `architectures` - the rules, structures, and constraints that govern an API's operation.
 
 There are 6 main categories of API `protocols` or `architectures`:
 
@@ -38,8 +38,8 @@ There are 6 main categories of API `protocols` or `architectures`:
       - 6 constraints followed by RESTful APIs
 
           1. client/server
-              - Client is someone who is requesting resources and are not concerned with data storage
-              - server is someone who holds the resources and are not concerned with the user interface or user state
+              - The client is someone who is requesting resources and is not concerned with data storage
+              - server is someone who holds the resources and is not concerned with the user interface or user state
           2. stateless
               - The server will not store anything about the latest HTTP request the client made
               - every request is treated as new
@@ -52,10 +52,10 @@ There are 6 main categories of API `protocols` or `architectures`:
           4. caching
              - caching of data and responses is of utmost importance wherever they are applicable/possible.
              - The webpage you are reading here is also a cached version of the HTML page.
-             - Caching brings performance improvement for the client side
+             - Caching brings performance improvement to the client side
              - Caching can be implemented on the server or client side.
           5. Layered
-             - architecture where you deploy the APIs on server A, and store data on server B and authenticate requests in Server C.
+             - architecture where you deploy the APIs on server A, and store data on server B, and authenticate requests in Server C.
              - for example. A client cannot ordinarily tell whether it is connected directly to the end server or an intermediary along the way
           6. Code on Demand (optional)
              - Most of the time, you will be sending the static representations of resources in the form of XML or JSON
@@ -80,3 +80,4 @@ There are 6 main categories of API `protocols` or `architectures`:
 ??? note " Webhook"
 
       - Webhook
+
