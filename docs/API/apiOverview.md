@@ -84,6 +84,7 @@ There are 6 main categories of API `protocols` or `architectures`:
       - Webhook
 
 ### In terms of Consumer usage
+There are no differences from an implementation perspective for these APIs:
 - Private or Internal
 - Public or External
 - Partner
