@@ -1,0 +1,10 @@
+extends: existence
+message: "Avoid plural first person (we, us) (such as '%s')."
+link: https://docs.microsoft.com/en-us/style-guide/grammar/person
+ignorecase: true
+level: warning
+nonword: true
+
+tokens:
+  - \bwe\b
+  - \bus\b
